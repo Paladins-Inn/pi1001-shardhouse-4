@@ -1,26 +1,27 @@
 {
   "id": "pi1001-shardhouse-4",
-  "name": "pi1001-shardhouse-4",
-  "title": "Torganisiertes Spiel - Scherbenhaus 4", 
-  "description": "<p>Die Abenteuer rund um das Scherbenhaus 4 in Frankfurt am Main. Hier lagert das Delphi Council Möglichkeitsscherben, die im Kampf gegen die Invasoren an Storm Knights ausgegeben werden. Es ist nicht das einzige Scherbenhaus, dass das Delphi Council unterhält. Aber es ist das Scherbenhaus, dass in der Mitte von 4 Realitäten liegt:</p><ul><li>Aysle</li><li>Tharkold</li><li>Cyberpapstum</li><li>Nil-Imperium</li><ul><p>Und es ist das Scherbenhaus, das in direkter Schlagdistanz der angreifenden Realitäten liegt.</p>",
+  "title": "Torganisiertes Spiel - Scherbenhaus 4",
+  "description": "<p>Die Abenteuer rund um das Scherbenhaus 4 in Frankfurt am Main. Hier lagert das Delphi Council Möglichkeitsscherben, die im Kampf gegen die Invasoren an Storm Knights ausgegeben werden. Es ist nicht das einzige Scherbenhaus, dass das Delphi Council unterhält. Aber es ist das Scherbenhaus, dass in der Mitte von 4 Realitäten liegt:</p><ul><li>Aysle</li><li>Tharkold</li><li>Cyberpapstum</li><li>Nil-Imperium</li><ul><p>Und es ist das Scherbenhaus, das in direkter Schlagdistanz der angreifenden Realitäten liegt.</p></ul></ul>",
   "authors": [
     {
       "name": "klenkes74",
-      "discord": "klenkes74",
       "email": "info@paladins-inn.de",
-      "url": "https://www.paladins-inn.de/"
+      "url": "https://www.paladins-inn.de/",
+      "discord": "klenkes74"
     }
   ],
   "languages": [
     {
       "lang": "de",
       "name": "Deutsch",
-      "path": "lang/de.json"
+      "path": "lang/de.json",
+      "flags": {}
     },
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     }
   ],
   "license": "https://www.paladins-inn.de/foundryvtt/license",
@@ -28,7 +29,6 @@
   "manifest": "https://github.com/Paladins-Inn/pi1001-shardhouse-4/releases/latest/download/module.json",
   "download": "https://github.com/Paladins-inn/pi1001-shardhouse-4/releases/download/v1.0.0/pi1001-shardhouse-4.zip",
   "version": "1.0.0",
-  "compatibleCoreVersion": "11",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
@@ -40,135 +40,181 @@
     {
       "type": "setup",
       "url": "modules/pi1001-shardhouse-4/art/images/setup.webp",
-      "thumbnail": "modules/pi000-XXXX/assets/art/setup-thumb.webp"
+      "thumbnail": "modules/pi000-XXXX/assets/art/setup-thumb.webp",
+      "loop": false,
+      "flags": {}
     }
   ],
   "relationships": {
     "systems": [
       {
         "id": "torgeternity",
-        "type": "system"
+        "type": "system",
+        "compatibility": {}
       }
     ],
     "requires": [
-      { "id": "gAudioBundle-1", "type": "module" },
-      { "id": "gAudioBundle-2", "type": "module" },
-      { "id": "gAudioBundle-3", "type": "module" },
-      { "id": "gAudioBundle-4", "type": "module" },
-      { "id": "multistatus", "type": "module" },
-      { "id": "multilevel-tokens", "type": "module" },
-      { "id": "tokenmagic", "type": "module" },
-      { "id": "about-time", "type": "module" },
-      { "id": "times-up", "type": "module" },
-      { "id": "fxmaster", "type": "module" },
-      { "id": "levels", "type": "module" },
-      { "id": "wall-height", "type": "module" },
-      { "id": "warpgate", "type": "module" }
+      {
+        "id": "gAudioBundle-1",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-2",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-3",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-4",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "wall-height",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "warpgate",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "multistatus",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "multilevel-tokens",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tokenmagic",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "about-time",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "times-up",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "fxmaster",
+        "type": "module",
+        "compatibility": {}
+      }
     ]
   },
   "packs": [
     {
       "name": "PI1001-de-journal",
       "label": "Scherbenhaus 4 Journal (de)",
+      "path": "packs/PI1001-de-journal",
       "type": "JournalEntry",
-      "path": "packs/de/journal",
-      "private": true,
+      "system": "torgeternity",
       "ownership": {
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "PI1001-de-items",
       "label": "Scherbenhaus 4 Gegenstände (de)",
+      "path": "packs/PI1001-de-items",
       "type": "Item",
-      "path": "packs/de/items",
       "system": "torgeternity",
-      "private": true,
       "ownership": {
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "PI1001-de-actors",
       "label": "Scherbenhaus 4 Akteure/Bedrohungen (de)",
+      "path": "packs/PI1001-de-actors",
       "type": "Actor",
-      "path": "packs/de/actors",
       "system": "torgeternity",
-      "private": true,
       "ownership": {
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "PI1001-de-scenes",
       "label": "Scherbenhaus 4 Szenen (de)",
+      "path": "packs/PI1001-de-scenes",
       "type": "Scene",
-      "path": "packs/de/scenes",
-      "private": true,
+      "system": "torgeternity",
       "ownership": {
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "PI1001-de-adventures",
       "label": "Scherbenhaus 4 Abenteuer (de)",
+      "path": "packs/PI1001-de-adventures",
       "type": "Adventure",
-      "path": "packs/de/adventures",
       "system": "torgeternity",
-      "private": true,
       "ownership": {
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "PI1001-de-rolltables",
       "label": "Scherbenhaus 4 Würfeltabellen (de)",
+      "path": "packs/PI1001-de-rolltables",
       "type": "RollTable",
-      "path": "/packs/de/rolltables",
       "system": "torgeternity",
-      "private": true,
       "ownership": {
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
-        "name": "PI1001-playlists",
-        "label": "Scherbenhaus 4 Playlists",
-        "type": "Playlist",
-        "path": "packs/playlists",
-        "private": true,
-        "ownership": {
-          "ASSISTANT": "OWNER"
-        },
-        "flags": {}
+      "name": "PI1001-playlists",
+      "label": "Scherbenhaus 4 Playlists",
+      "path": "packs/PI1001-playlists",
+      "type": "Playlist",
+      "system": "torgeternity",
+      "ownership": {
+        "ASSISTANT": "OWNER"
       }
-    ],
-    "packFolders": [
+    }
+  ],
+  "packFolders": [
     {
-      "name": "Torganisiertes Spiel - Scherbenhaus 4", 
-      "sorting": "m", 
-      "color": "#6600CC", 
+      "name": "Torganisiertes Spiel - Scherbenhaus 4",
+      "sorting": "m",
+      "color": "#6600CC",
       "folders": [
         {
           "name": "Deutsch",
-          "sorting": "m", 
-          "color": "#960000", 
+          "sorting": "m",
+          "color": "#960000",
           "packs": [
-            "PI1001-de-journal", 
+            "PI1001-de-journal",
             "PI1001-de-items",
-            "PI1001-de-actors", 
-            "PI1001-de-scenes", 
-            "PI1001-de-adventures", 
-            "PI1001-de-rolltables" 
+            "PI1001-de-actors",
+            "PI1001-de-scenes",
+            "PI1001-de-adventures",
+            "PI1001-de-rolltables"
           ]
         }
-      ], 
+      ],
       "packs": [
         "PI1001-playlists"
       ]
