@@ -1,31 +1,31 @@
-import { registerPI0000Settings } from "./settings.js";
+import { registerPI1001Settings } from "./settings.js";
 
 Hooks.once("init", async function() {
-    console.log("torgeternity | Initializing YYYYYYYYY Module");
+    console.log("torgeternity | Initializing Torganisiertes Spiel - Scherbenhaus 4 Module");
 
     //-----system settings
-    registerPI0000Settings()
+    registerPI1001Settings()
 
 })
 Hooks.on("ready", async function() {
     //----rendering welcome message
 
-    let welcomeMessage = await renderTemplate("modules/pi0000-XXXX/welcomeMessage.hbs");
+    let welcomeMessage = await renderTemplate("modules/pi1001-shardhouse-4/welcomeMessage.hbs");
 
-    if (game.settings.get("pi0000-XXXXX", "welcomeMessage")) {
+    if (game.settings.get("pi1001-shardhouse-4X", "welcomeMessage")) {
         let d = new Dialog({
-            title: game.i18n.localize("PI0000.Title"),
+            title: game.i18n.localize("PI1001.Title"),
             content: welcomeMessage,
             buttons: {
                 one: {
                     icon: '<i class="fas fa-check"></i>',
-                    label: game.i18n.localize("PI0000.Init.Button.OK"),
+                    label: game.i18n.localize("PI1001.Init.Button.OK"),
                 },
                 two: {
                     icon: '<i class="fas fa-ban"></i>',
-                    label: game.i18n.localize("PI0000.Init.Button.DontShowAgain"),
+                    label: game.i18n.localize("PI1001.Init.Button.DontShowAgain"),
                     callback: () =>
-                        game.settings.set("pi0000-XXXX", "welcomeMessage", false),
+                        game.settings.set("pi1001-shardhouse-4", "welcomeMessage", false),
                 },
             },
         }, {

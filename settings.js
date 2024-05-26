@@ -1,8 +1,8 @@
-export function registerPI0000Settings() {
+export function registerPI1001Settings() {
 
-    game.settings.register("pi0000-XXXX", "welcomeMessage", {
-        name: game.i18n.localize("PI0000.Settings.welcomeMessage.Name"),
-        hint: game.i18n.localize("PI0000.Settings.welcomeMessage.Hint"),
+    game.settings.register("pi1001-shardhouse-4", "welcomeMessage", {
+        name: game.i18n.localize("PI1001.Settings.welcomeMessage.Name"),
+        hint: game.i18n.localize("PI1001.Settings.welcomeMessage.Hint"),
         scope: "world",
         config: true,
         type: Boolean,

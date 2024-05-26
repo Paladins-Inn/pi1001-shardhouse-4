@@ -1,15 +1,15 @@
 {
-    "PI0000.Title": "YYYYYYYYY",
+    "PI1001.Title": "Torganisiertes Spiel - Scherbenhaus 4",
 
-    "PI0000.Welcome.Title": "Modul YYYYYYYYY",
-    "PI0000.Welcome.LicenceText": "<p>Dieses Modul wurde von Paladins Inn unter Lizenz von <a href=\"https://ulisses-us.com/\"><img src=\"systems/torgeternity/images/ulissesLogo.webp\" alt=\"Ulisses Spiele\"></a> entwickelt.</p>",
-    "PI0000.Welcome.Discord": "<p>Danke dass Du Torg Eternity spielst. Wenn Du Hilfe benötigst, kannst Du den <a href=\"https://www.paladins-inn.de/discord\">Paladins-Inn Discord-Server</a> nutzen.</p>",
+    "PI1001.Welcome.Title": "Modul Torganisiertes Spiel - Scherbenhaus 4",
+    "PI1001.Welcome.LicenceText": "<p>Dieses Modul wurde von Paladins Inn unter Lizenz von <a href=\"https://ulisses-us.com/\"><img src=\"systems/torgeternity/images/ulissesLogo.webp\" alt=\"Ulisses Spiele\"></a> entwickelt.</p>",
+    "PI1001.Welcome.Discord": "<p>Danke dass Du Torg Eternity spielst. Wenn Du Hilfe benötigst, kannst Du den <a href=\"https://www.paladins-inn.de/discord\">Paladins-Inn Discord-Server</a> nutzen.</p>",
 
-    "PI0000.Settings.welcomeMessage.Name": "Zeige die Willkommensnachricht an",
-    "PI0000.Settings.welcomeMessage.Hint": "Wenn aktiviert, wird die Willkommensnachricht des Moduls angezeigt.",
+    "PI1001.Settings.welcomeMessage.Name": "Zeige die Willkommensnachricht an",
+    "PI1001.Settings.welcomeMessage.Hint": "Wenn aktiviert, wird die Willkommensnachricht des Moduls angezeigt.",
 
-    "PI0000.Init.Button.OK": "OK",
-    "PI0000.Init.Button.DontShowAgain": "Nicht wieder anzeigen",
+    "PI1001.Init.Button.OK": "OK",
+    "PI1001.Init.Button.DontShowAgain": "Nicht wieder anzeigen",
     
-    "PI0000.EndMarkerForComma": "<!-- end -->"
+    "PI1001.EndMarkerForComma": "<!-- end -->"
 }

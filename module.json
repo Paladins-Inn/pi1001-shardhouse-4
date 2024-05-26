@@ -1,8 +1,8 @@
 {
-  "id": "pi0000-XXXX",
-  "name": "pi0000-XXXX",
-  "title": "YYYYYYYYY", 
-  "description": "<p></p>",
+  "id": "pi1001-shardhouse-4",
+  "name": "pi1001-shardhouse-4",
+  "title": "Torganisiertes Spiel - Scherbenhaus 4", 
+  "description": "<p>Die Abenteuer rund um das Scherbenhaus 4 in Frankfurt am Main. Hier lagert das Delphi Council Möglichkeitsscherben, die im Kampf gegen die Invasoren an Storm Knights ausgegeben werden. Es ist nicht das einzige Scherbenhaus, dass das Delphi Council unterhält. Aber es ist das Scherbenhaus, dass in der Mitte von 4 Realitäten liegt:</p><ul><li>Aysle</li><li>Tharkold</li><li>Cyberpapstum</li><li>Nil-Imperium</li><ul><p>Und es ist das Scherbenhaus, das in direkter Schlagdistanz der angreifenden Realitäten liegt.</p>",
   "authors": [
     {
       "name": "klenkes74",
@@ -24,9 +24,9 @@
     }
   ],
   "license": "https://www.paladins-inn.de/foundryvtt/license",
-  "url": "https://www.paladins-inn.de/pi0000-XXXX",
-  "manifest": "https://github.com/Paladins-Inn/pi0000-XXXX/releases/latest/download/module.json",
-  "download": "https://github.com/Paladins-inn/pi0000-XXXX/releases/download/v1.0.0/pi0000-XXXX.zip",
+  "url": "https://www.paladins-inn.de/pi1001-shardhouse-4",
+  "manifest": "https://github.com/Paladins-Inn/pi1001-shardhouse-4/releases/latest/download/module.json",
+  "download": "https://github.com/Paladins-inn/pi1001-shardhouse-4/releases/download/v1.0.0/pi1001-shardhouse-4.zip",
   "version": "1.0.0",
   "compatibleCoreVersion": "11",
   "compatibility": {
@@ -34,13 +34,13 @@
     "verified": "11.315"
   },
   "esmodules": [
-    "pi0000-XXXX.js"
+    "pi1001-shardhouse-4.js"
   ],
   "media": [
     {
       "type": "setup",
-      "url": "modules/pi0000-XXXX/images/setup.webp",
-      "thumbnail": "modules/pi000-XXXX/images/setup-thumb.webp"
+      "url": "modules/pi1001-shardhouse-4/art/images/setup.webp",
+      "thumbnail": "modules/pi000-XXXX/assets/art/setup-thumb.webp"
     }
   ],
   "relationships": {
@@ -69,14 +69,14 @@
   "packs": [
     {
       "name": "XXXX-de-journal",
-      "label": "YYYYYYYYY Journal (de)",
+      "label": "Torganisiertes Spiel - Scherbenhaus 4 Journal (de)",
       "path": "./packs/de/journal.db",
       "entity": "JournalEntry",
       "type": "JournalEntry"
     },
     {
       "name": "XXXX-de-items",
-      "label": "YYYYYYYYY Items (de)",
+      "label": "Torganisiertes Spiel - Scherbenhaus 4 Items (de)",
       "path": "./packs/de/items.db",
       "entity": "Item",
       "type": "Item",
@@ -84,7 +84,7 @@
     },
     {
       "name": "XXXX-de-actors",
-      "label": "YYYYYYYYY Actors",
+      "label": "Torganisiertes Spiel - Scherbenhaus 4 Actors",
       "path": "./packs/de/actors.db",
       "entity": "Actor",
       "type": "Actor",
@@ -92,14 +92,14 @@
     },
     {
       "name": "XXXX-de-scenes",
-      "label": "YYYYYYYYY Scenes (de)",
+      "label": "Torganisiertes Spiel - Scherbenhaus 4 Scenes (de)",
       "path": "./packs/de/scenes.db",
       "entity": "Scene",
       "type": "Scene"
     },
     {
       "name": "XXXX-de-adventures",
-      "label": "YYYYYYYYY Adventures (de)",
+      "label": "Torganisiertes Spiel - Scherbenhaus 4 Adventures (de)",
       "path": "./packs/de/adventures.db",
       "entity": "Adventure",
       "type": "Adventure",
@@ -107,7 +107,7 @@
     },
     {
       "name": "XXXX-de-rolltables",
-      "label": "YYYYYYYYY Würfeltabellen (de)",
+      "label": "Torganisiertes Spiel - Scherbenhaus 4 Würfeltabellen (de)",
       "path": "/packs/de/rolltables.db",
       "type": "RollTable",
       "system": "torgeternity",
@@ -116,15 +116,15 @@
   },
   {
       "name": "XXXX-playlists",
-      "label": "YYYYYYYYY Playlists",
+      "label": "Torganisiertes Spiel - Scherbenhaus 4 Playlists",
       "path": "./packs/playlists.db",
       "entity": "Playlist",
       "type": "Playlist"
     }
   ],
    "packFolders": [
-    { "name": "YYYYYYYYY", "sorting": "m", "color": "#6600CC", "folders": [
-      { "name": "YYYYYYYYY (Deutsch)", "sorting": "m", "color": "#960000", "packs": [
+    { "name": "Torganisiertes Spiel - Scherbenhaus 4", "sorting": "m", "color": "#6600CC", "folders": [
+      { "name": "Torganisiertes Spiel - Scherbenhaus 4 (Deutsch)", "sorting": "m", "color": "#960000", "packs": [
         "XXXX-de-journal", 
         "XXXX-de-items",
         "XXXX-de-actors", 
