@@ -68,72 +68,99 @@
   },
   "packs": [
     {
-      "name": "XXXX-de-journal",
-      "label": "Torganisiertes Spiel - Scherbenhaus 4 Journal (de)",
-      "path": "./packs/de/journal.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
+      "name": "PI1001-de-journal",
+      "label": "Scherbenhaus 4 Journal (de)",
+      "type": "JournalEntry",
+      "path": "./packs/de/journal",
+      "private": true,
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-      "name": "XXXX-de-items",
-      "label": "Torganisiertes Spiel - Scherbenhaus 4 Items (de)",
-      "path": "./packs/de/items.db",
-      "entity": "Item",
+      "name": "PI1001-de-items",
+      "label": "Scherbenhaus 4 Items (de)",
       "type": "Item",
-      "system": "torgeternity"
-    },
-    {
-      "name": "XXXX-de-actors",
-      "label": "Torganisiertes Spiel - Scherbenhaus 4 Actors",
-      "path": "./packs/de/actors.db",
-      "entity": "Actor",
-      "type": "Actor",
-      "system": "torgeternity"
-    },
-    {
-      "name": "XXXX-de-scenes",
-      "label": "Torganisiertes Spiel - Scherbenhaus 4 Scenes (de)",
-      "path": "./packs/de/scenes.db",
-      "entity": "Scene",
-      "type": "Scene"
-    },
-    {
-      "name": "XXXX-de-adventures",
-      "label": "Torganisiertes Spiel - Scherbenhaus 4 Adventures (de)",
-      "path": "./packs/de/adventures.db",
-      "entity": "Adventure",
-      "type": "Adventure",
-      "system": "torgeternity"
-    },
-    {
-      "name": "XXXX-de-rolltables",
-      "label": "Torganisiertes Spiel - Scherbenhaus 4 Würfeltabellen (de)",
-      "path": "/packs/de/rolltables.db",
-      "type": "RollTable",
+      "path": "./packs/de/items",
       "system": "torgeternity",
-      "private": false,
+      "private": true,
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "PI1001-de-actors",
+      "label": "Scherbenhaus 4 Actors (de)",
+      "type": "Actor",
+      "path": "./packs/de/actors",
+      "system": "torgeternity",
+      "private": true,
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "PI1001-de-scenes",
+      "label": "Scherbenhaus 4 Scenes (de)",
+      "type": "Scene",
+      "path": "./packs/de/scenes",
+      "private": true,
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "PI1001-de-adventures",
+      "label": "Scherbenhaus 4 Adventures (de)",
+      "type": "Adventure",
+      "path": "./packs/de/adventures",
+      "system": "torgeternity",
+      "private": true,
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "PI1001-de-rolltables",
+      "label": "Scherbenhaus 4 Würfeltabellen (de)",
+      "type": "RollTable",
+      "path": "/packs/de/rolltables",
+      "system": "torgeternity",
+      "private": true,
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
   },
   {
-      "name": "XXXX-playlists",
-      "label": "Torganisiertes Spiel - Scherbenhaus 4 Playlists",
-      "path": "./packs/playlists.db",
-      "entity": "Playlist",
-      "type": "Playlist"
+      "name": "PI1001-playlists",
+      "label": "Scherbenhaus 4 Playlists",
+      "type": "Playlist",
+      "path": "./packs/playlists",
+      "private": true,
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
    "packFolders": [
     { "name": "Torganisiertes Spiel - Scherbenhaus 4", "sorting": "m", "color": "#6600CC", "folders": [
       { "name": "Torganisiertes Spiel - Scherbenhaus 4 (Deutsch)", "sorting": "m", "color": "#960000", "packs": [
-        "XXXX-de-journal", 
-        "XXXX-de-items",
-        "XXXX-de-actors", 
-        "XXXX-de-scenes", 
-        "XXXX-de-adventures", 
-        "XXXX-de-rolltables" 
+        "PI1001-de-journal", 
+        "PI1001-de-items",
+        "PI1001-de-actors", 
+        "PI1001-de-scenes", 
+        "PI1001-de-adventures", 
+        "PI1001-de-rolltables" 
       ]}
     ], "packs": [
-      "XXXX-playlists"
+      "PI1001-playlists"
     ]}
   ]
 }
