@@ -71,7 +71,7 @@
       "name": "PI1001-de-journal",
       "label": "Scherbenhaus 4 Journal (de)",
       "type": "JournalEntry",
-      "path": "./packs/de/journal",
+      "path": "packs/de/journal",
       "private": true,
       "ownership": {
         "ASSISTANT": "OWNER"
@@ -80,9 +80,9 @@
     },
     {
       "name": "PI1001-de-items",
-      "label": "Scherbenhaus 4 Items (de)",
+      "label": "Scherbenhaus 4 Gegenstände (de)",
       "type": "Item",
-      "path": "./packs/de/items",
+      "path": "packs/de/items",
       "system": "torgeternity",
       "private": true,
       "ownership": {
@@ -92,9 +92,9 @@
     },
     {
       "name": "PI1001-de-actors",
-      "label": "Scherbenhaus 4 Actors (de)",
+      "label": "Scherbenhaus 4 Akteure/Bedrohungen (de)",
       "type": "Actor",
-      "path": "./packs/de/actors",
+      "path": "packs/de/actors",
       "system": "torgeternity",
       "private": true,
       "ownership": {
@@ -104,9 +104,9 @@
     },
     {
       "name": "PI1001-de-scenes",
-      "label": "Scherbenhaus 4 Scenes (de)",
+      "label": "Scherbenhaus 4 Szenen (de)",
       "type": "Scene",
-      "path": "./packs/de/scenes",
+      "path": "packs/de/scenes",
       "private": true,
       "ownership": {
         "ASSISTANT": "OWNER"
@@ -115,9 +115,9 @@
     },
     {
       "name": "PI1001-de-adventures",
-      "label": "Scherbenhaus 4 Adventures (de)",
+      "label": "Scherbenhaus 4 Abenteuer (de)",
       "type": "Adventure",
-      "path": "./packs/de/adventures",
+      "path": "packs/de/adventures",
       "system": "torgeternity",
       "private": true,
       "ownership": {
@@ -136,31 +136,42 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
-  },
-  {
-      "name": "PI1001-playlists",
-      "label": "Scherbenhaus 4 Playlists",
-      "type": "Playlist",
-      "path": "./packs/playlists",
-      "private": true,
-      "ownership": {
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+    },
+    {
+        "name": "PI1001-playlists",
+        "label": "Scherbenhaus 4 Playlists",
+        "type": "Playlist",
+        "path": "packs/playlists",
+        "private": true,
+        "ownership": {
+          "ASSISTANT": "OWNER"
+        },
+        "flags": {}
+      }
+    ],
+    "packFolders": [
+    {
+      "name": "Torganisiertes Spiel - Scherbenhaus 4", 
+      "sorting": "m", 
+      "color": "#6600CC", 
+      "folders": [
+        {
+          "name": "Deutsch",
+          "sorting": "m", 
+          "color": "#960000", 
+          "packs": [
+            "PI1001-de-journal", 
+            "PI1001-de-items",
+            "PI1001-de-actors", 
+            "PI1001-de-scenes", 
+            "PI1001-de-adventures", 
+            "PI1001-de-rolltables" 
+          ]
+        }
+      ], 
+      "packs": [
+        "PI1001-playlists"
+      ]
     }
-  ],
-   "packFolders": [
-    { "name": "Torganisiertes Spiel - Scherbenhaus 4", "sorting": "m", "color": "#6600CC", "folders": [
-      { "name": "Deutsch", "sorting": "m", "color": "#960000", "packs": [
-        "PI1001-de-journal", 
-        "PI1001-de-items",
-        "PI1001-de-actors", 
-        "PI1001-de-scenes", 
-        "PI1001-de-adventures", 
-        "PI1001-de-rolltables" 
-      ]}
-    ], "packs": [
-      "PI1001-playlists"
-    ]}
   ]
 }
