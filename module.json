@@ -1,0 +1,139 @@
+{
+  "id": "pi0000-XXXX",
+  "name": "pi0000-XXXX",
+  "title": "YYYYYYYYY", 
+  "description": "<p></p>",
+  "authors": [
+    {
+      "name": "klenkes74",
+      "discord": "klenkes74",
+      "email": "info@paladins-inn.de",
+      "url": "https://www.paladins-inn.de/"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "license": "https://www.paladins-inn.de/foundryvtt/license",
+  "url": "https://www.paladins-inn.de/pi0000-XXXX",
+  "manifest": "https://github.com/Paladins-Inn/pi0000-XXXX/releases/latest/download/module.json",
+  "download": "https://github.com/Paladins-inn/pi0000-XXXX/releases/download/v1.0.0/pi0000-XXXX.zip",
+  "version": "1.0.0",
+  "compatibleCoreVersion": "11",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "esmodules": [
+    "pi0000-XXXX.js"
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/pi0000-XXXX/images/setup.webp",
+      "thumbnail": "modules/pi000-XXXX/images/setup-thumb.webp"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "torgeternity",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      { "id": "gAudioBundle-1", "type": "module" },
+      { "id": "gAudioBundle-2", "type": "module" },
+      { "id": "gAudioBundle-3", "type": "module" },
+      { "id": "gAudioBundle-4", "type": "module" },
+      { "id": "multistatus", "type": "module" },
+      { "id": "multilevel-tokens", "type": "module" },
+      { "id": "tokenmagic", "type": "module" },
+      { "id": "about-time", "type": "module" },
+      { "id": "times-up", "type": "module" },
+      { "id": "fxmaster", "type": "module" },
+      { "id": "levels", "type": "module" },
+      { "id": "wall-height", "type": "module" },
+      { "id": "warpgate", "type": "module" }
+    ]
+  },
+  "packs": [
+    {
+      "name": "XXXX-de-journal",
+      "label": "YYYYYYYYY Journal (de)",
+      "path": "./packs/de/journal.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "XXXX-de-items",
+      "label": "YYYYYYYYY Items (de)",
+      "path": "./packs/de/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "torgeternity"
+    },
+    {
+      "name": "XXXX-de-actors",
+      "label": "YYYYYYYYY Actors",
+      "path": "./packs/de/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "torgeternity"
+    },
+    {
+      "name": "XXXX-de-scenes",
+      "label": "YYYYYYYYY Scenes (de)",
+      "path": "./packs/de/scenes.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "XXXX-de-adventures",
+      "label": "YYYYYYYYY Adventures (de)",
+      "path": "./packs/de/adventures.db",
+      "entity": "Adventure",
+      "type": "Adventure",
+      "system": "torgeternity"
+    },
+    {
+      "name": "XXXX-de-rolltables",
+      "label": "YYYYYYYYY Würfeltabellen (de)",
+      "path": "/packs/de/rolltables.db",
+      "type": "RollTable",
+      "system": "torgeternity",
+      "private": false,
+      "flags": {}
+  },
+  {
+      "name": "XXXX-playlists",
+      "label": "YYYYYYYYY Playlists",
+      "path": "./packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    }
+  ],
+   "packFolders": [
+    { "name": "YYYYYYYYY", "sorting": "m", "color": "#6600CC", "folders": [
+      { "name": "YYYYYYYYY (Deutsch)", "sorting": "m", "color": "#960000", "packs": [
+        "XXXX-de-journal", 
+        "XXXX-de-items",
+        "XXXX-de-actors", 
+        "XXXX-de-scenes", 
+        "XXXX-de-adventures", 
+        "XXXX-de-rolltables" 
+      ]}
+    ], "packs": [
+      "XXXX-playlists"
+    ]}
+  ]
+}
