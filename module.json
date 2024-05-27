@@ -1,6 +1,7 @@
 {
   "id": "pi1001-shardhouse-4",
   "title": "Torganisiertes Spiel - Scherbenhaus 4",
+  "version": "0.1.0",
   "description": "<p>Die Abenteuer rund um das Scherbenhaus 4 in Frankfurt am Main. Hier lagert das Delphi Council Möglichkeitsscherben, die im Kampf gegen die Invasoren an Storm Knights ausgegeben werden. Es ist nicht das einzige Scherbenhaus, dass das Delphi Council unterhält. Aber es ist das Scherbenhaus, dass in der Mitte von 4 Realitäten liegt:</p><ul><li>Aysle</li><li>Tharkold</li><li>Cyberpapstum</li><li>Nil-Imperium</li><ul><p>Und es ist das Scherbenhaus, das in direkter Schlagdistanz der angreifenden Realitäten liegt.</p></ul></ul>",
   "authors": [
     {
@@ -27,8 +28,7 @@
   "license": "https://www.paladins-inn.de/foundryvtt/license",
   "url": "https://www.paladins-inn.de/pi1001-shardhouse-4",
   "manifest": "https://github.com/Paladins-Inn/pi1001-shardhouse-4/releases/latest/download/module.json",
-  "download": "https://github.com/Paladins-inn/pi1001-shardhouse-4/releases/download/v1.0.0/pi1001-shardhouse-4.zip",
-  "version": "1.0.0",
+  "download": "https://github.com/Paladins-inn/pi1001-shardhouse-4/releases/download/v0.1.0/pi1001-shardhouse-4.zip",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
@@ -39,7 +39,7 @@
   "media": [
     {
       "type": "setup",
-      "url": "modules/pi1001-shardhouse-4/art/images/setup.webp",
+      "url": "modules/pi1001-shardhouse-4/assets/art/setup.webp",
       "thumbnail": "modules/pi000-XXXX/assets/art/setup-thumb.webp",
       "loop": false,
       "flags": {}
