@@ -1,6 +1,7 @@
 {
   "id": "pi1001-shardhouse-4",
   "title": "Torganisiertes Spiel - Scherbenhaus 4",
+  "version": "0.1.0",
   "description": "<p>Die Abenteuer rund um das Scherbenhaus 4 in Frankfurt am Main. Hier lagert das Delphi Council Möglichkeitsscherben, die im Kampf gegen die Invasoren an Storm Knights ausgegeben werden. Es ist nicht das einzige Scherbenhaus, dass das Delphi Council unterhält. Aber es ist das Scherbenhaus, dass in der Mitte von 4 Realitäten liegt:</p><ul><li>Aysle</li><li>Tharkold</li><li>Cyberpapstum</li><li>Nil-Imperium</li><ul><p>Und es ist das Scherbenhaus, das in direkter Schlagdistanz der angreifenden Realitäten liegt.</p></ul></ul>",
   "authors": [
     {
@@ -27,8 +28,7 @@
   "license": "https://www.paladins-inn.de/foundryvtt/license",
   "url": "https://www.paladins-inn.de/pi1001-shardhouse-4",
   "manifest": "https://github.com/Paladins-Inn/pi1001-shardhouse-4/releases/latest/download/module.json",
-  "download": "https://github.com/Paladins-inn/pi1001-shardhouse-4/releases/download/v1.0.0/pi1001-shardhouse-4.zip",
-  "version": "1.0.0",
+  "download": "https://github.com/Paladins-inn/pi1001-shardhouse-4/releases/download/v0.1.0/pi1001-shardhouse-4.zip",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
@@ -39,7 +39,7 @@
   "media": [
     {
       "type": "setup",
-      "url": "modules/pi1001-shardhouse-4/art/images/setup.webp",
+      "url": "modules/pi1001-shardhouse-4/assets/art/setup.webp",
       "thumbnail": "modules/pi000-XXXX/assets/art/setup-thumb.webp",
       "loop": false,
       "flags": {}
@@ -125,9 +125,9 @@
   },
   "packs": [
     {
-      "name": "PI1001-de-journal",
+      "name": "pi1001-de-journal",
       "label": "Scherbenhaus 4 Journal (de)",
-      "path": "packs/PI1001-de-journal",
+      "path": "packs/pi1001-de-journal",
       "type": "JournalEntry",
       "system": "torgeternity",
       "ownership": {
@@ -135,9 +135,9 @@
       }
     },
     {
-      "name": "PI1001-de-items",
+      "name": "pi1001-de-items",
       "label": "Scherbenhaus 4 Gegenstände (de)",
-      "path": "packs/PI1001-de-items",
+      "path": "packs/pi1001-de-items",
       "type": "Item",
       "system": "torgeternity",
       "ownership": {
@@ -145,9 +145,9 @@
       }
     },
     {
-      "name": "PI1001-de-actors",
+      "name": "pi1001-de-actors",
       "label": "Scherbenhaus 4 Akteure/Bedrohungen (de)",
-      "path": "packs/PI1001-de-actors",
+      "path": "packs/pi1001-de-actors",
       "type": "Actor",
       "system": "torgeternity",
       "ownership": {
@@ -155,9 +155,9 @@
       }
     },
     {
-      "name": "PI1001-de-scenes",
+      "name": "pi1001-de-scenes",
       "label": "Scherbenhaus 4 Szenen (de)",
-      "path": "packs/PI1001-de-scenes",
+      "path": "packs/pi1001-de-scenes",
       "type": "Scene",
       "system": "torgeternity",
       "ownership": {
@@ -165,9 +165,9 @@
       }
     },
     {
-      "name": "PI1001-de-adventures",
+      "name": "pi1001-de-adventures",
       "label": "Scherbenhaus 4 Abenteuer (de)",
-      "path": "packs/PI1001-de-adventures",
+      "path": "packs/pi1001-de-adventures",
       "type": "Adventure",
       "system": "torgeternity",
       "ownership": {
@@ -175,9 +175,9 @@
       }
     },
     {
-      "name": "PI1001-de-rolltables",
+      "name": "pi1001-de-rolltables",
       "label": "Scherbenhaus 4 Würfeltabellen (de)",
-      "path": "packs/PI1001-de-rolltables",
+      "path": "packs/pi1001-de-rolltables",
       "type": "RollTable",
       "system": "torgeternity",
       "ownership": {
@@ -185,9 +185,9 @@
       }
     },
     {
-      "name": "PI1001-playlists",
+      "name": "pi1001-playlists",
       "label": "Scherbenhaus 4 Playlists",
-      "path": "packs/PI1001-playlists",
+      "path": "packs/pi1001-playlists",
       "type": "Playlist",
       "system": "torgeternity",
       "ownership": {
@@ -200,23 +200,23 @@
       "name": "Torganisiertes Spiel - Scherbenhaus 4",
       "sorting": "m",
       "color": "#6600CC",
+      "packs": [
+        "pi1001-playlists"
+      ],
       "folders": [
         {
           "name": "Deutsch",
           "sorting": "m",
           "color": "#960000",
           "packs": [
-            "PI1001-de-journal",
-            "PI1001-de-items",
-            "PI1001-de-actors",
-            "PI1001-de-scenes",
-            "PI1001-de-adventures",
-            "PI1001-de-rolltables"
+            "pi1001-de-journal",
+            "pi1001-de-items",
+            "pi1001-de-actors",
+            "pi1001-de-scenes",
+            "pi1001-de-adventures",
+            "pi1001-de-rolltables"
           ]
         }
-      ],
-      "packs": [
-        "PI1001-playlists"
       ]
     }
   ]
